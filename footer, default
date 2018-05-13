@@ -1,0 +1,42 @@
+  </div>
+<div id="rightside">
+  <h3>
+    Editing This Sidebar</h3>
+  <p>
+    This sidebar can be edited by accessing the footer portion, under the template elements section of the website builder.</p>
+  <h3>
+    Event Calendar</h3>
+  [[module:mini_calendar]]<br />
+  <h3>
+    Our Links</h3>
+  <ul>
+    <li>
+      <a href="http://www.w3schools.com/css/">CSS Tutorial</a></li>
+    <li>
+      <a href="http://en.wikipedia.org/wiki/Web_colors">Hex Color Chart</a></li>
+    <li>
+      <a href="http://help.orgsync.com">OrgSync HelpDesk</a></li>
+    <li>
+      <a href="http://www.orgsync.com/contact/support">OrgSync Support</a></li>
+  </ul>
+</div>
+
+  </div></div><div style="clear: both;"></div>
+<div id="footer">
+  <div id="footer_container">
+    <div id="poweredby"><a href="http://orgsync.com/">Powered by OrgSync</a></div>
+
+
+    <div id="text">
+      <p>
+  <strong>Cornell University</strong><br/>
+  410 Thurston Ave, Ithaca, NY 14850<br/>
+  (607) 255-5241
+</p>
+
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
