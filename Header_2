@@ -12,79 +12,19 @@
 
     <div id="navigation">
       <ul>
-        <li><a href="[[page:home]]">Home</a></li>
-        <li><a href="[[page:Officers]]">Officers</a></li>
-        <li><a href="[[page:Process]]">Process</a></li>
+<li><a href="[[page:home]]">Home</a></li>
+<li><a href="[[page:Officers]]">Officers</a</li>
+<li><a href="[[page:Process]]">Process</a</li>       
+<li><a href="[[page:Funding]]">Allocate Funding</a></li>
+<li><a href="[[page:Spaces]]">Allocate Space</a></li>
+
+        
         <li><a style="color:purple; bold;" href="https://orgsync.com/72394/chapter">Kommittee Orgsync Portal</a></li>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.accordion {
-    background-color: transparent;
-    color: #444;
-    cursor: pointer;
-    
-    width: 100%;
-    border: none;
-    text-align: right;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
 
-.active, .accordion:hover {
-    background-color: purple;
-}
-
-.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2212";
-}
-
-.panel {
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-</style>
 </head>
 <body>
-
-<button class="accordion">What You Can Allocate</button>
-<div class="panel">
-  <li><a href="[[page:Spaces]]">Space</a></li>
-    <li><a href="[[page:Funding]]">Funding</a></li>
-
-</div>
-
-</div>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-
-
 
 
     </div>
